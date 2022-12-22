@@ -58,10 +58,8 @@ const Data = () => {
 
       <h3 className="home__subtitle">Front-End Web Developer</h3>
       <p className="home__description">
-        I can provide clean code. A responsive design makes your website
-        accessible to all users, regardless of their device.<br></br> To make a
-        remarkable gift for the universe to contribute to the World Wide Web
-        revolution.
+        To make a remarkable gift for the universe to contribute to the World
+        Wide Web revolution.
       </p>
 
       <a href="#contact" className="button button--flex">
