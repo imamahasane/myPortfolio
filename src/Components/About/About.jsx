@@ -1,9 +1,8 @@
 import React from 'react';
 
 import './About.css';
-// import AboutImg from '../../assets/about.JPG';
 import AboutImg from '../../assets/about.png';
-import CV from '../../assets/imam-cv.pdf';
+// import CV from '../../assets/imam-cv.pdf';
 import Info from './Info';
 
 const About = () => {
@@ -25,7 +24,13 @@ const About = () => {
             regardless of their device.
           </p>
 
-          <a download="" /* href={CV} */ href="https://docs.google.com/document/d/1Aa8OZvn7_S_Xp8wRG5x6tlgQePDhBVHgBeTIiZ7n6WA" className="button button--flex">
+          <a
+            download=""
+            /* href={CV} */ href="https://docs.google.com/document/d/1Aa8OZvn7_S_Xp8wRG5x6tlgQePDhBVHgBeTIiZ7n6WA"
+            className="button button--flex"
+            target="_blank"
+            rel="noreferrer"
+          >
             Download CV
             <svg
               class="button__icon"
