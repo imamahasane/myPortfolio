@@ -24,8 +24,10 @@ const App = () => {
         <Qualification />
         <Testimonials />
         <Contact />
-        <Footer />
       </main>
+
+      <Footer />
+
     </>
   );
 };
