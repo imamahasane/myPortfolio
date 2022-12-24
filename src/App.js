@@ -10,6 +10,7 @@ import Qualification from './Components/Qualification/Qualification';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import Scroll from './Components/scrollup/Scroll';
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
       </main>
 
       <Footer />
-
+      <Scroll />
     </>
   );
 };

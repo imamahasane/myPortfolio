@@ -45,9 +45,15 @@
 /* === Active Link Start === */
 .active-link,
 nav__link:hover {
-  color: var(--title-color-dark);
+  /* color: var(--title-color-dark); */
+  color: rgb(255, 0, 191);
 }
 /* === Active Link End === */
+
+/* Change Background Header */
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
 
 /* === Breakpoints Start === */
 @media screen and (max-width: 768px) {
